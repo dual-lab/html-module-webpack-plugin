@@ -17,7 +17,8 @@
   ],
   "scripts": {
     "build": "rollup --config",
-    "test": "ava"
+    "test": "ava",
+    "commit": "cz"
   },
   "repository": "git@github.com:dual-lab/html-module-webpack-plugin.git",
   "devDependencies": {
@@ -28,6 +29,7 @@
     "@rollup/plugin-babel": "^5.2.1",
     "@rollup/plugin-json": "^4.1.0",
     "ava": "^3.13.0",
+    "cz-conventional-changelog": "3.3.0",
     "rollup": "^2.33.1",
     "typescript": "^4.0.5",
     "webpack": "^5.4.0"
@@ -35,5 +37,10 @@
   "dependencies": {
     "@types/webpack": "^4.41.25",
     "html-webpack-plugin": "^5.0.0-alpha.14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
