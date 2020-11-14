@@ -9,8 +9,8 @@
   "module": "dist/index-esm.mjs",
   "type": "commonjs",
   "exports": {
-    ".": "dist/index.js",
-    "./esm": "dist/index-esm.mjs"
+    ".": "./dist/index.js",
+    "./esm": "./dist/index-esm.mjs"
   },
   "files": [
     "/dist"
@@ -44,5 +44,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "peerDependencies": {
+    "webpack": ">=4.0.0",
+    "html-webpack-plugin": ">=4.0.0"
   }
+
 }
