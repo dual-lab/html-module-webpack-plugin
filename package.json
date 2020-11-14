@@ -18,7 +18,8 @@
   "scripts": {
     "build": "rollup --config",
     "test": "ava",
-    "commit": "cz"
+    "commit": "cz",
+    "changelog": "standard-changelog"
   },
   "repository": "git@github.com:dual-lab/html-module-webpack-plugin.git",
   "devDependencies": {
@@ -31,6 +32,7 @@
     "ava": "^3.13.0",
     "cz-conventional-changelog": "3.3.0",
     "rollup": "^2.33.1",
+    "standard-changelog": "^2.0.27",
     "typescript": "^4.0.5",
     "webpack": "^5.4.0"
   },
