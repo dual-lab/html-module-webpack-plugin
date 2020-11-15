@@ -2,18 +2,45 @@
 
 Github action release| Github action wrap-up
 :---: | :---: |
-![Rel](https://github.com/dual-lab/bast/workflows/bast-ci/badge.svg)| ![Wrap_up](https://github.com/dual-lab/bast/workflows/bast-wrap-up/badge.svg)|
+![Rel]()| ![main/master]()|
 
-Inspired by [@babel/register](https://github.com/babel/babel/blob/master/packages/babel-register)
 
 ## About this Repo
 
-This repo contains a Babel JIT simple transpiler.
+This repo contains a webpack plugin, that add the ```type='module'``` to 
+html script tags.
 
 ## Install
 
-WIP.
+User yout favorite package manager to install the latest version
+
+```shell
+yarn add @dual-lab/html--module-webpack-plugin --dev
+
+```
+
+or
+
+```shell
+npm i @dual-lab/html--module-webpack-plugin --save-dev
+
+```
 
 ## Usage
 
-WIP.
+Add this plugin after the _HtmlWebpackPlugin_
+
+```js
+{
+  ...other options,
+    plugin: [
+      new HtmlWebpackPlugin(options),
+      new HtmlModuleWebpackPlugin(options)
+    ]
+}
+
+```
+
+Plugin options :
+
+- **exclude**: array of glob pattern exclude.
