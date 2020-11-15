@@ -1,4 +1,4 @@
-# bast
+# html-module-webpack-plugin
 
 Github action release| Github action wrap-up
 :---: | :---: |
