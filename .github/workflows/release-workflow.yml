@@ -76,7 +76,7 @@ jobs:
           name: html-module-webpack-plugin-pack
       - name: Get pack name
         id: get-pack-name
-        run: echo "::set-output name=packname::$(basename bhtml-module-webpack-plugin-pack/*.tgz)"
+        run: echo "::set-output name=packname::$(basename html-module-webpack-plugin-pack/*.tgz)"
       - name: Create release tags
         id: create-release
         uses: actions/create-release@latest
