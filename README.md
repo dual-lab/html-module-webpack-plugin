@@ -2,9 +2,10 @@
 
 Github action release| Github action wrap-up
 :---: | :---: |
-![Rel]()| ![main/master](https://github.com/dual-lab/html-module-webpack-plugin/workflows/html-module-webpack-plugin-main/badge.svg?branch=main%2Fmaster&event=push)|
+![Rel](https://github.com/dual-lab/html-module-webpack-plugin/workflows/html-module-webpack-plugin-ci/badge.svg)| ![main/master](https://github.com/dual-lab/html-module-webpack-plugin/workflows/html-module-webpack-plugin-main/badge.svg?branch=main%2Fmaster&event=push)|
 
 ## About this Repo
+
 
 This repo contains a webpack plugin, that add the ```type='module'``` to 
 html script tags.
