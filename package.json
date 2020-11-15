@@ -1,6 +1,6 @@
 {
   "name": "@dual-lab/html-module-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "HTML module webpack plugin",
   "author": "dmike16",
   "license": "MIT",
