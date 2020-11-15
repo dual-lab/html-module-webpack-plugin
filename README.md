@@ -1,9 +1,8 @@
-# bast
+# html-module-webpack-plugin
 
 Github action release| Github action wrap-up
 :---: | :---: |
-![Rel]()| ![main/master]()|
-
+![Rel]()| ![main/master](https://github.com/dual-lab/html-module-webpack-plugin/workflows/html-module-webpack-plugin-main/badge.svg?branch=main%2Fmaster&event=push)|
 
 ## About this Repo
 
